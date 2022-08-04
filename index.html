@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="scripts.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pokemon Battle</title>
+</head>
+<body>
+	<div id="principal">
+		<div id="inimigo">
+			<div id="dadosInimigo">
+				<div id="textoInimigo">
+					<p id="nomeInimigo">WEEZING</p>
+					<p id="levelInimigo">Lv 25</p>
+				</div>
+				<div id="containerHpInimigo">
+					<p id="textoHpInimigo">HP</p>
+					<div id="hpInimigo"></div>
+				</div>
+			</div>
+			<div>
+				<img id="imagemInimigo" src="weezing.png">
+			</div>
+		</div">
+
+		<div>
+			<img id="imagemTreinador" src="bulbassauro.png">
+		</div>
+
+		<div id="treinador">
+			<div id="dadosTreinador">
+				<div id="textoTreinador">
+					<p id="nomeTreinador">BULBASSAUR</p>
+					<p id="levelTreinador">Lv 20</p>
+				</div>
+				<div id="containerHpTreinador">
+					<p id="textoHpTreinador">HP</p>
+					<div id="hpTreinador"></div>
+				</div>
+			</div>
+		</div">
+
+	</div>
+	<div id="containerPrincipalBaixo">
+		<div id="containerAcoes">
+			<p id="textoAcoes">O que <br>BULBASSAURO fará?</p>
+		</div>
+
+		<div id="containerBotoes">
+			<div id="botoesCima" style="display: flex; margin-top: 2%;">
+				<button id="fightButton" onclick="lutar()" type="button" style="margin-left: 10%;">LUTAR</button>
+				<button id="bagButton" onclick="bag()" type="button" style="margin-left: 38%;">BOLSA</button>
+			</div>
+			<div id="botoesBaixo" style="display: flex; margin-top: 4%;">
+				<button id="pokemonChangeButton" onclick="changePokemon()" type="button" style="margin-left: 10%;">POKÉMON</button>
+				<button id="runButton" onclick="" type="button" style="margin-left: 25.5%;">FUGIR</button>
+			</div>
+		</div>
+
+		<div id="containerAtaques" style="display: none; margin-top: 1.2%;">
+			<button id="ataque1" onclick="ataque('BULBASSAURO','PATADA', 25, 'WEEZING')" type="button" style="margin-left: 15%;">PATADA</button>
+			<button id="ataque2" onclick="ataque('BULBASSAURO','FOLHA NAVALHA', 40, 'WEEZING')" type="button" style="margin-left: 35%;">FOLHA NAVALHA</button>
+		</div>
+	</div>
+</body>
+</html>

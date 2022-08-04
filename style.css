@@ -1,0 +1,233 @@
+body{
+	margin-left: 25px;
+	margin-top: 25px;
+	width: 1313px;
+	height: 605px;
+	border: 2px black solid;
+	border-radius: 10px;
+	background-color: black;
+}
+
+
+#principal{
+	border-radius: 10px;
+	background-image: linear-gradient(khaki, beige);
+	height: 605px;
+}
+
+#inimigo{
+	display: flex;
+}
+
+#dadosInimigo{
+	border: 4px brown solid;
+	border-radius: 10px;
+	background-color: #FAFAD2;
+	margin-left: 8%;
+	margin-top: 3%;
+	width: 380px;
+	height: 100	px;
+}
+
+#textoInimigo{
+	display: flex;
+	padding-right: 5%;
+}
+
+#nomeInimigo{
+	color: brown;
+	margin-left: 7%;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#levelInimigo{
+	color: red;
+	margin-right: 5%;
+	margin-left: 40%;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#containerHpInimigo{
+	;
+	margin-top: -8%;
+	margin-left: 23%;
+	padding-left: 15px;
+	width: 250px;
+	background-color: brown;
+	border-radius: 20px;
+}
+
+#textoHpInimigo{
+	margin-right: 5%;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#hpInimigo{
+	border-radius: 20px;
+	margin-top: -2.4%	;
+	margin-left: 3%;
+	position: absolute;
+	width: 200px;
+	height: 8px;
+	background-color: yellow;
+}
+
+#imagemInimigo{
+	position: absolute;
+	width: 22%;
+	margin-left: 15%;
+	margin-top: 1%;
+}
+
+
+
+
+
+
+#treinador{
+	display: flex;
+}
+
+#dadosTreinador{
+	position: absolute;
+	border: 4px brown solid;
+	border-radius: 10px;
+	background-color: #FAFAD2;
+	margin-left: 22%;
+	margin-top: 18%;
+	width: 380px;
+	height: 100px;
+}
+
+#textoTreinador{
+	display: flex;
+	padding-right: 5%;
+}
+
+#nomeTreinador{
+	color: brown;
+	margin-left: 7%;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#levelTreinador{
+	white-space: nowrap;
+	color: red;
+	margin-right: 5%;
+	margin-left: 28%;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#containerHpTreinador{
+	margin-top: -7%;
+	margin-left: 23%;
+	padding-left: 15px;
+	width: 250px;
+	background-color: brown;
+	border-radius: 20px;
+}
+
+#textoHpTreinador{
+	margin-right: 5%;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#hpTreinador{
+	border-radius: 20px;
+	margin-top: -8.5%	;
+	margin-left: 11%;
+	position: absolute;
+	width: 200px;
+	height: 8px;
+	background-color: yellow;
+}
+
+#imagemTreinador{
+	position: absolute;
+	width: 15%;
+	margin-left: -25%;
+	margin-top: 18%;
+}
+
+
+#containerPrincipalBaixo{
+	display: flex;
+	margin-top: 28%;
+	margin-left: 0.45%;
+	position: absolute;
+	background-color: #2F4F4F;
+	width: 1300px;
+	height: 218px;
+}
+
+#containerAcoes{
+	border: 4px brown solid;
+	border-radius: 15px;
+	width: 50%;
+	height: 160px;
+	margin-top: 1%;
+	margin-left: 1%;
+	padding: 15px;
+	background-color: #C0C0C0;
+}
+
+#textoAcoes{
+	margin-left: 2%;
+	font-size: 33px;
+	font-weight: bold;
+	color: white;
+	-webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#containerBotoes{
+	margin-left: 0.5%;
+	margin-top: 1.2%;
+	border: 10px #778899 solid;
+	background-color: white;
+	border-radius: 5px;
+	width: 50%;
+	margin-right: 1%;
+	height:  170px;
+}
+
+#containerBotoes button{
+	background-color: white;
+	border: none;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+
+#containerAtaques{
+	margin-left: 0.5%;
+	margin-top: 1.2%;
+	border: 10px #778899 solid;
+	background-color: white;
+	border-radius: 5px;
+	width: 50%;
+	margin-right: 1%;
+	height:  170px;
+}
+
+#containerAtaques button{
+	background-color: white;
+	border: none;
+	font-size: 25px;
+	font-weight: bold;
+}
